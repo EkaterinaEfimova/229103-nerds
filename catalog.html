@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Nërd's</title>
+  </head>
+  <body>
+<!--Хедер-->
+    <header class="main-header">
+    <div class="main-container">
+      <div class="logo">
+        <a href="#"><img src="img/logo.png" width="139" height="56" alt="Nërd's"></a>
+      </div>
+      <nav class="navigatiot-main">
+        <ul>
+          <li>
+            <a href="#">Студия</a>
+          </li>
+          <li>
+            <a href="#">Клиенты</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="cart-block">
+        <a class="cart" href="#">Корзина</a>
+      </div>
+      <div class="title">
+        <h1>Добро пожаловать в магазин<br>
+        готовых макетов</h1>
+      </div>
+    </div>
+  </header>
+<!--Контент-->
+  <div class="main">
+    <div class="filters">
+      <form action="#" method="get">
+        <div style="margin-top: 1em">
+          <h2>СТОИМОСТЬ:</h2>
+          <input id="price" type="range" min="0" max="15000">
+        </div>
+        <p id="result"></p>
+        <div class="price-min-max">
+          <p>ОТ</p>
+          <label>
+            <input type="text" name="price-min" value="0" class="price">
+          </label>
+          <p>ДО</p>
+          <label>
+            <input type="text" name="price-max" value="15000" class="price">
+          </label>
+        </div>
+        <div class="network">
+          <h2>Сетка:</h2>
+          <label>
+            <input type="radio" name="network" value="Адаптивная">
+            Адаптивная
+          </label>
+          <label>
+            <input type="radio" name="network" value="Фиксированная">
+            Фиксированная
+          </label>
+          <label>
+            <input type="radio" name="network" value="Резиновая">
+            Резиновая
+          </label>
+        </div>
+        <div class="special">
+          <input type="checkbox" name="slider" id="special-slider">
+          <label for="special-slider">Слайдер</label>
+          <input type="checkbox" name="features" id="special-features">
+          <label for="special-features">Блок преимуществ</label>
+          <input type="checkbox" name="news" id="special-news">
+          <label for="special-news">Новости</label>
+          <input type="checkbox" name="gallery" id="special-gallery">
+          <label for="special-gallery">Галерея</label>
+          <input type="checkbox" name="cart" id="special-cart">
+          <label for="special-cart">Корзина</label>
+        </div>
+        <input type="submit" value="ПОКАЗАТЬ">
+      </form>
+      <div class="catalog">
+        <div class="assortment">
+          <span class="assortment-left">СОРТИРОВАТЬ:</span>
+          <a href="#" class="assortment-link">ПО ЦЕНЕ</a>
+          <a href="#" class="assortment-link">ПО ТИПУ</a>
+          <a href="#" class="assortment-link">ПО ФУНКЦИОНАЛУ</a>
+          <a href="#" class="assortment-link"></a>
+        </div>
+        <div class="catalog-gallery">
+          <article class="website-gallery">
+            <img src="img/header.jpg" width="240" height="30" alt="smallheader" class="small-header">
+            <img src="img/web1.jpg" width="240" height="252" alt="AVIATOR" class="website-item">
+          </article>
+          <article class="website-gallery">
+            <img src="img/header.jpg" width="240" height="30" alt="smallheader" class="small-header">
+            <img src="img/web2.jpg" width="240" height="252" alt="Sunset" class="website-item">
+          </article>
+          <article class="website-gallery">
+            <img src="img/header.jpg" width="240" height="30" alt="smallheader" class="small-header">
+            <img src="img/web3.jpg" width="240" height="252" alt="FORTE" class="website-item">
+          </article>
+          <article class="website-gallery">
+            <img src="img/header.jpg" width="240" height="30" alt="smallheader" class="small-header">
+            <img src="img/web4.jpg" width="240" height="252" alt="Modern Organic THAI" class="website-item">
+          </article>
+          <article class="website-gallery">
+            <img src="img/header.jpg" width="240" height="30" alt="smallheader" class="small-header">
+            <img src="img/web5.jpg" width="240" height="252" alt="AVENUE" class="website-item">
+          </article>
+          <article class="website-gallery">
+            <img src="img/header.jpg" width="240" height="30" alt="smallheader" class="small-header">
+            <img src="img/web6.jpg" width="240" height="252" alt="DOVETAIL" class="website-item">
+          </article>
+        </div>
+        <div class="ctalog-page">
+          <a>1</a>
+          <a href="#" class="pages">2</a>
+          <a href="#" class="pages">3</a>
+          <a href="#" class="pages">СЛЕДУЮЩАЯ</a>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!--Футер-->
+    <footer class="main-footer">
+      <div class="contact">
+        <div class="address">
+          <p class="address-name">NЁRDS DESIGN STUDIO</p>
+          <p class="address-direction">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p class="address-telephone">тел. +7 (812) 275-75-75</p>
+          <a href="#" class="address-write">НАПИШИТЕ НАМ</a>
+          <div class="popup">
+          <!--Как прописать кнопку закрытия не смогла разобраться-->
+            <form action="#" method="post" class="popup-writer">
+              <label for="user-name" class="popup-name">Ваше имя:
+              </label>
+              <br>
+              <input type="text" name="user-name" id="user-name" value="Представьтесь, пожалуйста">
+              <label for="user-email" class="popup-email">Ваш e-mail:
+              </label>
+              <br>
+              <input type="text" name="user-email" id="user-email" value="Для отправки ответа">
+              <label class="letter">Текст письма:
+                <br>
+                <textarea rows="3">В свободной форме</textarea>
+              </label>
+              <br>
+              <input type="submit" value="ОТПРАВИТЬ">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="socials">
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </div>
+      <div class="promotion">
+        <p class="promotion-title">Давайте дружить, это выгодно!</p>
+        <p class="promotion-text">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+  </body>
+  </html>
