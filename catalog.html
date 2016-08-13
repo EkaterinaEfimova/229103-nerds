@@ -30,33 +30,30 @@
       <div class="cart-block">
         <a class="cart" href="#">Корзина</a>
       </div>
-      <div class="title">
-        <h1>Добро пожаловать в магазин<br>
-        готовых макетов</h1>
-      </div>
     </div>
   </header>
 <!--Контент-->
   <div class="main">
+    <div class="headline">
+      <h1>Добро пожаловать в магазин готовых макетов</h1>
+    </div>
     <div class="filters">
       <form action="#" method="get">
-        <div style="margin-top: 1em">
-          <h2>СТОИМОСТЬ:</h2>
+        <fieldset class="cost">
+          <legend>СТОИМОСТЬ:</legend>
           <input id="price" type="range" min="0" max="15000">
-        </div>
         <p id="result"></p>
-        <div class="price-min-max">
-          <p>ОТ</p>
+          <p class="price-min-max">ОТ</p>
           <label>
             <input type="text" name="price-min" value="0" class="price">
           </label>
-          <p>ДО</p>
+          <p class="price-min-max">ДО</p>
           <label>
             <input type="text" name="price-max" value="15000" class="price">
           </label>
-        </div>
-        <div class="network">
-          <h2>Сетка:</h2>
+      </fieldset>
+        <fieldset class="network">
+          <legend class="network-item">Сетка:</legend>
           <label>
             <input type="radio" name="network" value="Адаптивная">
             Адаптивная
@@ -69,8 +66,9 @@
             <input type="radio" name="network" value="Резиновая">
             Резиновая
           </label>
-        </div>
-        <div class="special">
+        </fieldset>
+        <fieldset class="special">
+          <legend class="special-item">Особенности</legend>
           <input type="checkbox" name="slider" id="special-slider">
           <label for="special-slider">Слайдер</label>
           <input type="checkbox" name="features" id="special-features">
@@ -81,8 +79,8 @@
           <label for="special-gallery">Галерея</label>
           <input type="checkbox" name="cart" id="special-cart">
           <label for="special-cart">Корзина</label>
-        </div>
-        <input type="submit" value="ПОКАЗАТЬ">
+        </fieldset>
+        <button type="submit" value="ПОКАЗАТЬ">ПОКАЗАТЬ</button>
       </form>
       <div class="catalog">
         <div class="assortment">
@@ -118,7 +116,7 @@
             <img src="img/web6.jpg" width="240" height="252" alt="DOVETAIL" class="website-item">
           </article>
         </div>
-        <div class="ctalog-page">
+        <div class="pagination">
           <a>1</a>
           <a href="#" class="pages">2</a>
           <a href="#" class="pages">3</a>
@@ -126,7 +124,7 @@
         </div>
       </div>
     </div>
-  </div>  
+  </div>
   <!--Футер-->
     <footer class="main-footer">
       <div class="contact">
@@ -135,36 +133,30 @@
           <p class="address-direction">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           <p class="address-telephone">тел. +7 (812) 275-75-75</p>
           <a href="#" class="address-write">НАПИШИТЕ НАМ</a>
-          <div class="popup">
-          <!--Как прописать кнопку закрытия не смогла разобраться-->
-            <form action="#" method="post" class="popup-writer">
-              <label for="user-name" class="popup-name">Ваше имя:
-              </label>
-              <br>
-              <input type="text" name="user-name" id="user-name" value="Представьтесь, пожалуйста">
-              <label for="user-email" class="popup-email">Ваш e-mail:
-              </label>
-              <br>
-              <input type="text" name="user-email" id="user-email" value="Для отправки ответа">
-              <label class="letter">Текст письма:
-                <br>
-                <textarea rows="3">В свободной форме</textarea>
-              </label>
-              <br>
-              <input type="submit" value="ОТПРАВИТЬ">
-            </form>
-          </div>
+
         </div>
       </div>
       <div class="socials">
-        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+        <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+        <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
       </div>
-      <div class="promotion">
-        <p class="promotion-title">Давайте дружить, это выгодно!</p>
-        <p class="promotion-text">Скидка 10% для друзей из социальных сетей.</p>
-      </div>
+      <p class="promotion">
+        <span class="promotion-title">Давайте дружить, это выгодно!</span>
+        <span class="promotion-text">Скидка 10% для друзей из социальных сетей.</span>
+      </p>
     </footer>
+    <div class="popup">
+      <button type="button" value="x"></button>
+      <form action="#" method="post" class="popup-writer">
+        Ваше имя:
+        <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста">
+        Ваш e-mail:
+        <input type="text" name="user-email" id="user-email" placeholder="Для отправки ответа">
+        Текст письма:
+          <textarea rows="3">В свободной форме</textarea>
+        <button type="submit" value="ОТПРАВИТЬ">ОТПРАВИТЬ</button>
+      </form>
+    </div>
   </body>
   </html>
