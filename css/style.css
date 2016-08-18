@@ -5,3 +5,153 @@ body {
   color: #283136;
   font-weight: 500;
 }
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 880px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+}
+.main-navigation {
+  float: left;
+  width: 620px;
+  margin-right: 20px;;
+}
+.cart-block {
+  float: right;
+  width: 90px;
+}
+.slider {
+  margin-bottom: 80px;
+}
+.slide-left {
+  float: left;
+  width: 480px;
+}
+.slide-right {
+  float: right;
+  width: 340px;
+}
+.features {
+  margin-bottom: 35px;
+}
+.features-item {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  /* Только для оформления сетки */
+  min-height: 380px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.description {
+  margin-bottom: 45px;
+}
+.description-left {
+  float: left;
+  width: 620px;
+  margin-right: 20px;
+  min-height: 405px;
+}
+.description-right {
+  float: right;
+  width: 240px;
+  min-height: 405px;
+}
+.brends {
+  margin-bottom: 35px;
+}
+.brends-btn {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  padding-top:
+}
+.brends-btn:last-child {
+  margin-right: 0;
+}
+.contact {
+  min-height: 419px;
+  padding-top: 88px;
+}
+.address {
+  float: left;
+  width: 250px;
+  min-height: 240px;
+}
+.main-footer {
+  margin-top: 75px;
+}
+.socials {
+  float: left;
+  width: 240px;
+  min-height: 70px;
+}
+.promotion {
+  float: right;
+  width: 560px;
+  min-height: 70px;
+}
+.headline {
+ min-height: 202px;
+ margin-bottom: 80px;
+}
+.catalog {
+  min-height: 1010px;
+}
+.filters {
+  float: left;
+  width: 240px;
+  min-height: 730px;
+}
+.cost{
+  min-height: 175px;
+  margin-bottom: 50px;
+}
+.price {
+  width: 80px;
+  height: 38px;
+  margin-left: 10px;
+}
+.network {
+  min-height: 145px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+}
+.special {
+  min-height: 220px;
+  margin-bottom: 60px;
+  padding-left: 50px;
+}
+.assortment {
+  float: right;
+  width: 560px;
+  min-height: 18px;
+  margin-bottom: 23px;
+}
+.catalog-gallery {
+  float: right;
+  width: 560px;
+  min-height: 972px;
+}
+.website-gallery {
+  float: left;
+  width: 240px;
+  height: 270px;
+  margin-right: 80px;
+  margin-bottom: 105px;
+}
+.website-gallery:nth-child(2n) {
+  margin-right: 0;
+}
