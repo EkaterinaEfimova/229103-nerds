@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Nërd's</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -15,31 +16,30 @@
     <nav class="main-navigation">
       <ul>
         <li>
-          <a href="#">Студия</a>
+          <a href="#" class="navigation">Студия</a>
         </li>
         <li>
-          <a href="#">Клиенты</a>
+          <a href="#" class="navigation">Клиенты</a>
         </li>
         <li>
-          <a href="#">Магазин</a>
+          <a href="../229103-nerds/catalog.html" class="navigation">Магазин</a>
         </li>
         <li>
-          <a href="#">Контакты</a>
+          <a href="#" class="navigation">Контакты</a>
         </li>
       </ul>
     </nav>
     <div class="cart-block">
-      <a class="cart" href="#">Корзина</a>
+      <a class="cart" href="#" class="cart">Корзина</a>
     </div>
   </div>
   </header>
-  <main class="container clearfix">
     <div class="slider clearfix">
-      <ul class="slider-item">
+      <ul class="slider-item container">
         <li class="slide">
           <div class="slide-left">
-            <h1 class="clide-name">Долго, дорого, скрупулезно.</h1>
-            <p class="slide-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <h1 class="slide-name">Долго, дорого, скрупулезно.</h1>
+            <p class="slide-text">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
             <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
           </div>
           <div class="slide-right">
@@ -74,6 +74,7 @@
         </li>-->
       </ul>
     </div>
+  <main class="container clearfix">
 <!--Контент-->
   <div class="features clearfix">
     <article class="features-item websites">
@@ -85,7 +86,7 @@
     <article class="features-item apps">
       <img src="img/icon2.png" class="icon" width="240" height="124" alt="Приложения">
       <h3 class="features-name">Приложения</h3>
-      <p class="features-text">Покорите топ-10 приложений в AppStrore и Google Play</p>
+      <p class="features-text">Покорите топ-10 приложений<br> в AppStrore и Google Play</p>
       <a href="#" class="features-btn apps-btn">ЗАКАЗАТЬ</a>
     </article>
     <article class="features-item presentations">
@@ -99,8 +100,8 @@
     <div class="description-left">
       <h2 class="description-name">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
       <p class="description-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-      <h3  class="description-subtitle">Выполняем заказы на разработку:</h3>
-      <ul class="description-inner">
+      <h3  class="description-subtitle-left">Выполняем заказы на разработку:</h3>
+      <ul class="description-inner-left">
         <li>Веб-сайтов любой сложности</li>
         <li>Мобильных приложений для iOS и Android</li>
         <li>Слайдшоу и видео для корпоративных презентаций</li>
@@ -109,26 +110,40 @@
     <div class="description-right">
       <img src="img/logo2.png" width="187" height="75" alt="Nërd's" class="description-logo">
       <span class="right-text">Since 2004</span>
-      <h3 class="description-subtitle">КАК Мы работаем:</h3>
-      <ul class="description-inner">
+      <h3 class="description-subtitle-right">КАК Мы работаем:</h3>
+      <ul class="description-inner-right">
         <li>С самоотдачей 146%</li>
         <li>Соблюдая сроки на 100%</li>
         <li>По предоплате 50%</li>
       </ul>
     </div>
   </div>
-  <div class="brends clearfix">
-    <a href="#" class="brends-btn">
-      <img src="img/brend1.png" width="198" height="37" alt="GLUCHANKO">
-    </a>
-    <a href="#" class="brends-btn">
-      <img src="img/brend2.png" width="199" height="68" alt="HTML academy">
-    </a>
-    <a href="#" class="brends-btn">
-      <img src="img/brend3.png" width="209" height="90" alt="Barbershop BORODINSKI">
-    </a>
-  </div>
+  <div class="brends">
+      <div class="brends-item">
+        <div  class="brends-inner">
+      <!--<a href="#" class="brends-btn">-->
+        <img src="img/brend1.png" width="198" height="37" alt="GLUCHANKO"/>
+      <!--</a>-->
+      </div>
+    </div>
+    <div class="brends-item">
+      <div  class="brends-inner">
+      <!--<a href="#" class="brends-btn">-->
+        <img src="img/brend2.png" width="199" height="68" alt="HTML academy"/>
+      <!--</a>-->
+      </div>
+    </div>
+    <div class="brends-item">
+      <div  class="brends-inner">
+      <!--<a href="#" class="brends-btn">-->!
+        <img src="img/brend3.png" width="209" height="90" alt="Barbershop BORODINSKI"/>
+      <!--</a>-->
+      </div>
+    </div>
+</div>
+</main>
   <div class="contact">
+    <div class="container">
     <div class="address">
       <p class="address-name">NЁRDS DESIGN STUDIO</p>
       <p class="address-direction">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -136,14 +151,14 @@
       <a href="#" class="address-write">НАПИШИТЕ НАМ</a>
     </div>
   </div>
-</main>
+  </div>
   <!--Футер-->
     <footer class="main-footer">
     <div class="container  clearfix">
       <div class="socials">
-        <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
-        <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
-        <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+        <a href="#" class="social-btn social-btn-vk"></a>
+        <a href="#" class="social-btn social-btn-fb"></a>
+        <a href="#" class="social-btn social-btn-inst"></a>
       </div>
       <p class="promotion">
         <span class="promotion-title">Давайте дружить, это выгодно!</span>
