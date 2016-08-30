@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Nërd's</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
 <!--Хедер-->
@@ -30,52 +31,47 @@
       </ul>
     </nav>
     <div class="cart-block">
-      <a class="cart" href="#" class="cart">Корзина</a>
+      <a class="cart" href="#" class="cart"><span class="icon-basket"></span>Корзина</a>
+    </div>
+  </div>
+    <div class="slider container">
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+      <div class="slider-control">
+        <label for="btn-1"></label>
+        <label for="btn-2"></label>
+        <label for="btn-3"></label>
+      </div>
+      <div class="slides">
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Долго, дорого, скрупулезно.</div>
+            <p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
+            <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Любите ли вы математику, как любим ее мы?</div>
+            <p>Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать</p>
+            <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Только наркотики,<br> только хардкор!</div>
+            <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
+            <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
+          </div>
+        </div>
+      </di>
     </div>
   </div>
   </header>
-    <div class="slider clearfix">
-      <ul class="slider-item container">
-        <li class="slide">
-          <div class="slide-left">
-            <h1 class="slide-name">Долго, дорого, скрупулезно.</h1>
-            <p class="slide-text">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
-            <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
-          </div>
-          <div class="slide-right">
-            <a href="#">
-              <img src="img/slide1.png" width="338" height="231" alt="Долго, дорого, скрупулезно.">
-            </a>
-          </div>
-        </li>
-        <!--<li class="slide">
-          <div class="slide-left">
-            <h1 class="clide-name">Любите ли вы математику, как любим ее мы?</h1>
-            <p class="slide-text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
-            <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
-          </div>
-          <div class="slide-right">
-            <a href="#">
-              <img src="img/slide2.png" width="139" height="249" alt="Любите ли вы математику, как любим ее мы?">
-            </a>
-          </div>
-        </li>
-        <li class="slide">
-          <div class="slide-left">
-            <h1 class="clide-name">Только наркотики, только хардкор!</h1>
-            <p class="slide-text">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
-            <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
-          </div>
-          <div class="slide-right">
-            <a href="#">
-              <img src="img/slide3.png" width="333" height="319" alt="Только наркотики, только хардкор!">
-            </a>
-          </div>
-        </li>-->
-      </ul>
-    </div>
-  <main class="container clearfix">
+  <div class="container clearfix">
 <!--Контент-->
+
   <div class="features clearfix">
     <article class="features-item websites">
       <img src="img/icon1.png" class="icon" width="240" height="124" alt="Веб-сайты">
@@ -102,48 +98,51 @@
       <p class="description-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
       <h3  class="description-subtitle-left">Выполняем заказы на разработку:</h3>
       <ul class="description-inner-left">
-        <li>Веб-сайтов любой сложности</li>
-        <li>Мобильных приложений для iOS и Android</li>
-        <li>Слайдшоу и видео для корпоративных презентаций</li>
+        <li><span class="description-inner">Веб-сайтов любой сложности</span></li>
+        <li><span class="description-inner">Мобильных приложений для iOS и Android</span></li>
+        <li><span class="description-inner">Слайдшоу и видео для корпоративных презентаций</span></li>
       </ul>
     </div>
     <div class="description-right">
       <img src="img/logo2.png" width="187" height="75" alt="Nërd's" class="description-logo">
-      <span class="right-text">Since 2004</span>
+      <span class="right-text"><span class="logo-right">Since 2004</span></span>
       <h3 class="description-subtitle-right">КАК Мы работаем:</h3>
       <ul class="description-inner-right">
-        <li>С самоотдачей 146%</li>
-        <li>Соблюдая сроки на 100%</li>
-        <li>По предоплате 50%</li>
+        <li><span class="description-inner">С самоотдачей 146%</span></li>
+        <li><span class="description-inner">Соблюдая сроки на 100%</span></li>
+        <li><span class="description-inner">По предоплате 50%</span></li>
       </ul>
     </div>
   </div>
   <div class="brends">
       <div class="brends-item">
         <div  class="brends-inner">
-      <!--<a href="#" class="brends-btn">-->
+      <a href="#" class="brends-btn">
         <img src="img/brend1.png" width="198" height="37" alt="GLUCHANKO"/>
-      <!--</a>-->
+      </a>
       </div>
     </div>
     <div class="brends-item">
       <div  class="brends-inner">
-      <!--<a href="#" class="brends-btn">-->
+      <a href="#" class="brends-btn">
         <img src="img/brend2.png" width="199" height="68" alt="HTML academy"/>
-      <!--</a>-->
+      </a>
       </div>
     </div>
     <div class="brends-item">
       <div  class="brends-inner">
-      <!--<a href="#" class="brends-btn">-->!
+      <a href="#" class="brends-btn">
         <img src="img/brend3.png" width="209" height="90" alt="Barbershop BORODINSKI"/>
-      <!--</a>-->
+      </a>
       </div>
     </div>
 </div>
-</main>
+</div>
   <div class="contact">
-    <div class="container">
+    <div class="maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412406!2d30.320894616211245!3d59.938796869047785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1472319102482" width="3000" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+    <div class="maps-position container">
     <div class="address">
       <p class="address-name">NЁRDS DESIGN STUDIO</p>
       <p class="address-direction">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -156,9 +155,9 @@
     <footer class="main-footer">
     <div class="container  clearfix">
       <div class="socials">
-        <a href="#" class="social-btn social-btn-vk"></a>
-        <a href="#" class="social-btn social-btn-fb"></a>
-        <a href="#" class="social-btn social-btn-inst"></a>
+        <a href="#" class="social-btn">Вконтакте<span class="icon-vk"></span></a>
+        <a href="#" class="social-btn">Facebook<span class="icon-facebook"></span></a>
+        <a href="#" class="social-btn">Instagramm<span class="icon-instagramm"></span></a>
       </div>
       <p class="promotion">
         <span class="promotion-title">Давайте дружить, это выгодно!</span>
