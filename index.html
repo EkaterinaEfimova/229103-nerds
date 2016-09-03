@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Nërd's</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-<!--Хедер-->
-<header class="main-header">
-  <div class="container clearfix">
-    <div class="logo">
-      <a href="#" class="logo-btn"><img src="img/logo.png" width="139" height="56" alt="Nërd's"></a>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nërd's</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Хедер-->
+  <header class="main-header">
+    <div class="container clearfix">
+      <div class="logo">
+        <a href="#" class="logo-btn"><img src="img/logo.png" width="139" height="56" alt="Nërd's"></a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li>
+            <a href="#" class="navigation">Студия</a>
+          </li>
+          <li>
+            <a href="#" class="navigation">Клиенты</a>
+          </li>
+          <li>
+            <a href="../229103-nerds/catalog.html" class="navigation">Магазин</a>
+          </li>
+          <li>
+            <a href="#" class="navigation">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="cart-block">
+        <a class="cart" href="#"><span class="icon-basket"></span>Корзина</a>
+      </div>
     </div>
-    <nav class="main-navigation">
-      <ul>
-        <li>
-          <a href="#" class="navigation">Студия</a>
-        </li>
-        <li>
-          <a href="#" class="navigation">Клиенты</a>
-        </li>
-        <li>
-          <a href="../229103-nerds/catalog.html" class="navigation">Магазин</a>
-        </li>
-        <li>
-          <a href="#" class="navigation">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="cart-block">
-      <a class="cart" href="#" class="cart"><span class="icon-basket"></span>Корзина</a>
-    </div>
-  </div>
     <div class="slider container">
-        <input type="radio" id="btn-1" name="toggle" checked>
-        <input type="radio" id="btn-2" name="toggle">
-        <input type="radio" id="btn-3" name="toggle">
+      <input type="radio" id="btn-1" name="toggle" checked>
+      <input type="radio" id="btn-2" name="toggle">
+      <input type="radio" id="btn-3" name="toggle">
       <div class="slider-control">
         <label for="btn-1"></label>
         <label for="btn-2"></label>
@@ -47,52 +49,55 @@
         <div class="slide">
           <div class="slide-text">
             <div class="slide-title">Долго, дорого, скрупулезно.</div>
-            <p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
+            <p>Математически выверенный дизайн
+              <br> для вашего сайта или мобильного приложения.</p>
             <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
           </div>
         </div>
         <div class="slide">
           <div class="slide-text">
             <div class="slide-title">Любите ли вы математику, как любим ее мы?</div>
-            <p>Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать</p>
+            <p>Нашим дизайнерам мы удаляем нейроны, ответственные
+              <br> за креатив, чтобы дать им возможность все просчитать</p>
             <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
           </div>
         </div>
         <div class="slide">
           <div class="slide-text">
-            <div class="slide-title">Только наркотики,<br> только хардкор!</div>
+            <div class="slide-title">Только наркотики,
+              <br> только хардкор!</div>
             <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
             <a href="#" class="slide-btn">УЗНАТЬ БОЛЬШЕ</a>
           </div>
         </div>
-      </di>
+      </div>
     </div>
-  </div>
   </header>
   <div class="container clearfix">
-<!--Контент-->
+    <!--Контент-->
 
-  <div class="features clearfix">
-    <article class="features-item websites">
-      <img src="img/icon1.png" class="icon" width="240" height="124" alt="Веб-сайты">
-      <h3 class="features-name">Веб-сайты</h3>
-      <p class="features-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-      <a href="#" class="features-btn websites-btn">ЗАКАЗАТЬ</a>
-    </article>
-    <article class="features-item apps">
-      <img src="img/icon2.png" class="icon" width="240" height="124" alt="Приложения">
-      <h3 class="features-name">Приложения</h3>
-      <p class="features-text">Покорите топ-10 приложений<br> в AppStrore и Google Play</p>
-      <a href="#" class="features-btn apps-btn">ЗАКАЗАТЬ</a>
-    </article>
-    <article class="features-item presentations">
-      <img src="img/icon3.png" class="icon" width="240" height="124" alt="Презентации">
-      <h3 class="features-name">Презентации</h3>
-      <p class="features-text">Вы даже не подозреваете, насколько вы изумительны!</p>
-      <a href="#" class="features-btn presentations-btn">ЗАКАЗАТЬ</a>
-    </article>
-  </div>
-  <div class="description clearfix">
+    <div class="features clearfix">
+      <article class="features-item websites">
+        <img src="img/icon1.png" class="icon" width="240" height="124" alt="Веб-сайты">
+        <h3 class="features-name">Веб-сайты</h3>
+        <p class="features-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+        <a href="#" class="features-btn websites-btn">ЗАКАЗАТЬ</a>
+      </article>
+      <article class="features-item apps">
+        <img src="img/icon2.png" class="icon" width="240" height="124" alt="Приложения">
+        <h3 class="features-name">Приложения</h3>
+        <p class="features-text">Покорите топ-10 приложений
+          <br> в AppStrore и Google Play</p>
+        <a href="#" class="features-btn apps-btn">ЗАКАЗАТЬ</a>
+      </article>
+      <article class="features-item presentations">
+        <img src="img/icon3.png" class="icon" width="240" height="124" alt="Презентации">
+        <h3 class="features-name">Презентации</h3>
+        <p class="features-text">Вы даже не подозреваете, насколько вы изумительны!</p>
+        <a href="#" class="features-btn presentations-btn">ЗАКАЗАТЬ</a>
+      </article>
+    </div>
+    <div class="description clearfix">
       <div class="desription-item">
         <div class="description-left">
           <h2 class="description-name">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
@@ -103,9 +108,9 @@
           <span class="right-text"><span class="logo-right">Since 2004</span></span>
         </div>
       </div>
-        <div class="description-features">
-          <div class="description-features-left">
-          <h3  class="description-subtitle-left">Выполняем заказы на разработку:</h3>
+      <div class="description-features">
+        <div class="description-features-left">
+          <h3 class="description-subtitle-left">Выполняем заказы на разработку:</h3>
           <ul class="description-inner-left">
             <li><span class="description-inner">Веб-сайтов любой сложности</span></li>
             <li><span class="description-inner">Мобильных приложений для iOS и Android</span></li>
@@ -120,45 +125,48 @@
             <li><span class="description-inner">По предоплате 50%</span></li>
           </ul>
         </div>
+      </div>
+    </div>
+    <div class="brends">
+      <div class="brends-item">
+        <div class="brends-inner">
+          <a href="#" class="brends-btn">
+            <img src="img/brend1.png" width="198" height="37" alt="GLUCHANKO" />
+          </a>
         </div>
       </div>
-  <div class="brends">
       <div class="brends-item">
-        <div  class="brends-inner">
-      <a href="#" class="brends-btn">
-        <img src="img/brend1.png" width="198" height="37" alt="GLUCHANKO"/>
-      </a>
+        <div class="brends-inner">
+          <a href="#" class="brends-btn">
+            <img src="img/brend2.png" width="199" height="68" alt="HTML academy" />
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="brends-item">
-      <div  class="brends-inner">
-      <a href="#" class="brends-btn">
-        <img src="img/brend2.png" width="199" height="68" alt="HTML academy"/>
-      </a>
+
+      <div class="brends-item">
+        <div class="brends-inner">
+          <a href="#" class="brends-btn">
+            <img src="img/brend3.png" width="209" height="90" alt="Barbershop BORODINSKI" />
+          </a>
+        </div>
       </div>
-    </div>
-    <div class="brends-item">
-      <div  class="brends-inner">
-      <a href="#" class="brends-btn">
-        <img src="img/brend3.png" width="209" height="90" alt="Barbershop BORODINSKI"/>
-      </a>
-      </div>
-    </div>
-</div>
-</div>
-  <div class="contact">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412406!2d30.320894616211245!3d59.938796869047785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1472319102482" width="100%" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <div class="maps-position container">
-    <div class="address">
-      <p class="address-name">NЁRDS DESIGN STUDIO</p>
-      <p class="address-direction">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <p class="address-telephone">тел. +7 (812) 275-75-75</p>
-      <a href="#" class="address-write">НАПИШИТЕ НАМ</a>
+
     </div>
   </div>
+  <div class="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412406!2d30.320894616211245!3d59.938796869047785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1472319102482"
+    width="100%" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="maps-position container">
+      <div class="address">
+        <h4 class="address-name">NЁRDS DESIGN STUDIO</h4>
+        <p class="address-direction">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p class="address-telephone">тел. +7 (812) 275-75-75</p>
+        <a href="#" class="address-write">НАПИШИТЕ НАМ</a>
+      </div>
+    </div>
   </div>
   <!--Футер-->
-    <footer class="main-footer">
+  <footer class="main-footer">
     <div class="container  clearfix">
       <div class="socials">
         <a href="#" class="social-btn">Вконтакте<span class="icon-vk"></span></a>
@@ -170,11 +178,11 @@
         <span class="promotion-text">Скидка 10% для друзей из социальных сетей.</span>
       </p>
     </div>
-    </footer>
-    <div class="popup">
-      <form action="#" method="post" class="popup-writer">
-        <button type="reset" class="close-popup"></button>
-        <label class="popup-name">Ваше имя:
+  </footer>
+  <div class="popup">
+    <form action="#" method="post" class="popup-writer">
+      <button type="reset" class="close-popup"></button>
+      <label class="popup-name">Ваше имя:
         <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста">
       </label>
       <label class="popup-email">
@@ -183,55 +191,13 @@
       </label>
       <label class="popup-letter">
         Текст письма:
-          <textarea rows="3" placeholder="В свободной форме"></textarea>
-        </label>
-        <button type="submit" value="ОТПРАВИТЬ" class="popup-btn">ОТПРАВИТЬ</button>
-      </form>
-    </div>
-    <script>
-      var link = document.querySelector(".address-write");
-      var popup = document.querySelector(".popup");
-      var close = popup.querySelector(".close-popup");
-      var form = popup.querySelector("form");
-      var login = popup.querySelector("[name=user-name]");
-      var email = popup.querySelector("[name=user-email]");
-      var storage = localStorage.getItem("login");
+        <textarea rows="3" placeholder="В свободной форме"></textarea>
+      </label>
+      <button type="submit" value="ОТПРАВИТЬ" class="popup-btn">ОТПРАВИТЬ</button>
+    </form>
+  </div>
+  <script src="js/scripts.min.js">
+  </script>
+</body>
 
-      link.addEventListener("click", function(event) {
-       event.preventDefault();
-      popup.classList.add("popup-show");
-      if (storage) {
-      login.value = storage;
-      }
-      if (storage) {
-        login.value = storage;
-        email.focus();
-      } else {
-        login.focus();
-      }
-      });
-
-      close.addEventListener("click", function(event) {
-      event.preventDefault();
-      popup.classList.remove("popup-show");
-      });
-
-      form.addEventListener("submit", function(event) {
-        if (!login.value || !email.value) {
-          event.preventDefault();
-          console.log("Нужно ввести имя и email");
-        } else {
-          localStorage.setItem("login", login.value);
-        }
-      });
-
-      window.addEventListener("keydown", function(event) {
-      if (event.keyCode === 27) {
-      if (popup.classList.contains("modal-content-show")) {
-      popup.classList.remove("modal-content-show");
-      }
-      }
-      });
-    </script>
-  </body>
-  </html>
+</html>
