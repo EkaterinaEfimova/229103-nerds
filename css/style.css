@@ -1617,8 +1617,8 @@ input[type='checkbox']:checked + label::before
 {
     display: block;
 
-    -webkit-animation: show 3s;
-            animation: show 3s;
+    -webkit-animation: show 1.5s;
+            animation: show 1.5s;
 }
 .popup-error
 {
